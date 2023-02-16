@@ -29,16 +29,18 @@
     font-size: small;
 }
 
-.logo img {
-    margin-top: 6em;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+.logo {
     position: absolute;
-    align-content: left;
-    height: 150px;
-    width: auto;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 
+.logo img {
+    height: 150px;
+    width: auto;
+    padding-left: 10em;
+}
 
 .sections {
     display: flex;
